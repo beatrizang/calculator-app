@@ -9,44 +9,46 @@
   <title>Frontend Mentor | Calculator app</title>
 
   <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/variable.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-  <main>
-    <div class="card">
-      <div>
-        <p>calc</p>
+  <main class="main">
+    <div class="calculator">
+      <div class="calulator__top">
+        <p class="calculator__title">calc</p>
       </div>
-      <div class="calculator__display">
-        <input type="number" placeholder="0">
-      </div>
+
+      <input class="calculator__display" type="number" placeholder="0">
+      
       <div class="calculator__buttons">
         <div class="numbers__row">
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>del</button>
+          <button class="btn-operator">7</button>
+          <button class="btn-operator">8</button>
+          <button class="btn-operator">9</button>
+          <button class="btn-func">del</button>
         </div>
         <div class="numbers__row">
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>+</button>
+          <button class="btn-operator">4</button>
+          <button class="btn-operator">5</button>
+          <button class="btn-operator">6</button>
+          <button class="btn-operator">+</button>
         </div>
         <div class="numbers__row">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>-</button>
+          <button class="btn-operator">1</button>
+          <button class="btn-operator">2</button>
+          <button class="btn-operator">3</button>
+          <button class="btn-operator">-</button>
         </div>
         <div class="numbers__row">
-          <button>.</button>
-          <button>0</button>
-          <button>/</button>
-          <button>x</button>
+          <button class="btn-operator">.</button>
+          <button class="btn-operator">0</button>
+          <button class="btn-operator">/</button>
+          <button class="btn-operator">x</button>
         </div>
-        <div class="numbers__row">
-          <button>reset</button>
-          <button>=</button>
+        <div class="numbers__last">
+          <button class="btn-reset">reset</button>
+          <button class="btn-equal">=</button>
         </div>
       </div>
     </div>
