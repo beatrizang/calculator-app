@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/variable.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <script src="./assets/js/Display.js" type="text/javascript"></script>
+  <script src="./assets/js/Calculadora.js" type="text/javascript"></script>
+  <script src="./assets/js/index.js" type="text/javascript" defer></script>
 </head>
 <body>
   <main class="main">
@@ -19,29 +23,29 @@
         <p class="calculator__title">calc</p>
       </div>
       <div class="calculator__display">
-        <div id="valor-anterior">969</div>
-        <div id="valor-actual">8958</div>
+        <div id="valor-anterior"></div>
+        <div id="valor-actual"></div>
       </div>
       
       <div class="calculator__buttons">
           <button class="btn-number">7</button>
           <button class="btn-number">8</button>
           <button class="btn-number">9</button>
-          <button class="btn-func">del</button>
+          <button class="btn-func" onclick="display.borrar()">del</button>
           <button class="btn-number">4</button>
           <button class="btn-number">5</button>
           <button class="btn-number">6</button>
-          <button class="btn-operator">+</button>
+          <button class="btn-operator" value="sumar">+</button>
           <button class="btn-number">1</button>
           <button class="btn-number">2</button>
           <button class="btn-number">3</button>
-          <button class="btn-operator">-</button>
+          <button class="btn-operator" value="restar">-</button>
           <button class="btn-number">.</button>
           <button class="btn-number">0</button>
-          <button class="btn-operator">/</button>
-          <button class="btn-operator">x</button>
-          <button class="btn-reset">reset</button>
-          <button class="btn-equal">=</button>
+          <button class="btn-operator" value="dividir">/</button>
+          <button class="btn-operator" value="multiplicar">x</button>
+          <button class="btn-reset" onclick="display.borrarTodo()">reset</button>
+          <button class="btn-equal btn-operator" value="igual">=</button>
       </div>
     </div>
   </main>
