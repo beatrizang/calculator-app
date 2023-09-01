@@ -26,16 +26,18 @@
 /*Theme 2*/
 /*Backgrounds*/
 
-    ---light-gray: hsl(0, 0%, 90%);
+    --light-gray: hsl(0, 0%, 90%);
     --grayish-red: hsl(0, 5%, 81%);
     --very-light-gray: hsl(0, 0%, 93%);
 
 /*Keys*/
 
     --dark-moderate-cyan: hsl(185, 42%, 37%);
+    --light-dark-moderate-cyan: hsl(184, 33%, 60%);
     --very-dark-cyan: hsl(185, 58%, 25%);
 
     --orange: hsl(25, 98%, 40%);
+    --light-orange:rgb(250, 128, 41);
     --dark-orange: hsl(25, 99%, 27%);
 
     --light-grayish-yellow: hsl(45, 7%, 89%);
