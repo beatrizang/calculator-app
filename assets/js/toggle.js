@@ -5,6 +5,8 @@ var buttonsCalculator = document.querySelector('.calculator__buttons');
 var btnFunc = document.querySelector('.btn-func');
 var btnReset = document.querySelector('.btn-reset');
 var btnEqual = document.querySelector('.btn-equal');
+var toggleNumber = document.querySelector('.top__toggle');
+var toggleTitle = document.querySelector('.calculator__title');
 
 toggle.onclick = function(){
     toggle.classList.toggle('medium');
@@ -14,4 +16,6 @@ toggle.onclick = function(){
     btnFunc.classList.toggle('medium');
     btnReset.classList.toggle('medium');
     btnEqual.classList.toggle('medium');
+    toggleNumber.classList.toggle('medium');
+    toggleTitle.classList.toggle('medium');
 }
