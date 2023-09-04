@@ -2,8 +2,8 @@ var toggle = document.getElementById('container');
 var body = document.querySelector('body');
 var displayCalculator = document.querySelector('.calculator__display');
 var buttonsCalculator = document.querySelector('.calculator__buttons');
-var btnNumber = document.querySelector('.btn-number');
-var btnOperator = document.querySelector('.btn-operator');
+var btnNumber = document.querySelectorAll('.btn-number');
+var btnOperator = document.querySelectorAll('.btn-operator');
 var btnFunc = document.querySelector('.btn-func');
 var btnReset = document.querySelector('.btn-reset');
 var btnEqual = document.querySelector('.btn-equal');
@@ -39,13 +39,21 @@ function removeMedium(){
     body.classList.remove('medium');
     displayCalculator.classList.remove('medium');
     buttonsCalculator.classList.remove('medium');
-    btnOperator.classList.remove('last');
-    btnNumber.classList.remove('last');
     btnFunc.classList.remove('medium');
     btnReset.classList.remove('medium');
-    btnEqual.classList.remove('medium');
+    
     toggleNumber.classList.remove('medium');
     toggleTitle.classList.remove('medium');
+
+    btnNumber.forEach(boton => {
+        boton.classList.remove('last');
+    });
+
+    btnOperator.forEach(boton => {
+        boton.classList.remove('last');
+    });
+
+    btnEqual.classList.remove('medium');
 }
 
 function removeLast(){
@@ -53,13 +61,21 @@ function removeLast(){
     body.classList.remove('last');
     displayCalculator.classList.remove('last');
     buttonsCalculator.classList.remove('last');
-    btnOperator.classList.remove('last');
-    btnNumber.classList.remove('last');
     btnFunc.classList.remove('last');
     btnReset.classList.remove('last');
-    btnEqual.classList.remove('last');
+
     toggleNumber.classList.remove('last');
     toggleTitle.classList.remove('last');
+
+    btnNumber.forEach(boton => {
+        boton.classList.remove('last');
+    });
+
+    btnOperator.forEach(boton => {
+        boton.classList.remove('last');
+    });
+
+    btnEqual.classList.remove('last');
 }
 
 function themeMedio(){
@@ -67,13 +83,20 @@ function themeMedio(){
     body.classList.toggle('medium');
     displayCalculator.classList.toggle('medium');
     buttonsCalculator.classList.toggle('medium');
-    btnNumber.classList.remove('last');
-    btnOperator.classList.remove('last');
     btnFunc.classList.toggle('medium');
     btnReset.classList.toggle('medium');
-    btnEqual.classList.toggle('medium');
     toggleNumber.classList.toggle('medium');
     toggleTitle.classList.toggle('medium');
+
+    btnNumber.forEach(boton => {
+        boton.classList.remove('last');
+    });
+
+    btnOperator.forEach(boton => {
+        boton.classList.remove('last');
+    });
+
+    btnEqual.classList.toggle('medium');
 }
 
 function themeLast(){
@@ -83,9 +106,17 @@ function themeLast(){
     buttonsCalculator.classList.toggle('last');
     btnFunc.classList.toggle('last');
     btnReset.classList.toggle('last');
-    btnEqual.classList.toggle('last');
-    btnNumber.classList.toggle('last');
-    btnOperator.classList.toggle('last');
+    
     toggleNumber.classList.toggle('last');
     toggleTitle.classList.toggle('last');
+
+    btnNumber.forEach(boton => {
+        boton.classList.toggle('last');
+    });
+
+    btnOperator.forEach(boton => {
+        boton.classList.toggle('last');
+    });
+
+    btnEqual.classList.toggle('last');
 }

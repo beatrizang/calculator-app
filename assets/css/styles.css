@@ -197,7 +197,7 @@ body.medium{
 }
 
 #container.last .toggle{
-    left: 60px;
+    left: 55px;
     background: var(--pure-cyan);
 }
 
@@ -221,8 +221,6 @@ body.last{
 .calculator__buttons.last{
     background: var(--very-dark-violet-2);
 }
-
-
 
 .btn-func.last, .btn-reset.last{
     background: var(--dark-violet);
