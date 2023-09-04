@@ -62,9 +62,11 @@
 
     --pure-cyan: hsl(176, 100%, 44%);
     --soft-cyan: hsl(177, 92%, 70%);
+    --light-soft-cyan: hsl(177, 89%, 78%);
 
     --very-dark-violet-3: hsl(268, 47%, 21%);
     --dark-magenta: hsl(290, 70%, 36%);
+    --light-dark-magenta: hsl(290, 100%, 19%);
 
 /*Text*/
 

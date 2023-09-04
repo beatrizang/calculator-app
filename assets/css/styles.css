@@ -187,3 +187,68 @@ body.medium{
 .btn-equal.medium:hover{
     background: var(--light-orange);
 }
+
+/*THEME 3 STYLES*/
+
+#container.last{
+    background: var(--very-dark-violet-2);
+    box-shadow: inset 4px 4px 0px var(--very-dark-violet-2),
+    inset -4px -4px 0px var(--very-dark-violet-2);
+}
+
+#container.last .toggle{
+    left: 60px;
+    background: var(--pure-cyan);
+}
+
+body.last{
+    background: var(--very-dark-violet-1);
+}
+
+.calculator__title.last{
+    color: var(--light-yellow);
+}
+
+.top__toggle.last{
+    color: var(--light-yellow);
+}
+
+.calculator__display.last{
+    background: var(--very-dark-violet-2);
+    color: var(--light-yellow);
+}
+
+.calculator__buttons.last{
+    background: var(--very-dark-violet-2);
+}
+
+
+
+.btn-func.last, .btn-reset.last{
+    background: var(--dark-violet);
+    border-bottom: 3px solid var(--vivid-magenta);
+}
+
+.btn-func.last:hover, .btn-reset.last:hover{
+    background: var(--dark-magenta);
+}
+
+.btn-number.last, .btn-operator.last{
+    background: var(--very-dark-violet-3);
+    border-bottom: 3px solid var(--dark-magenta);
+    color: var(--light-yellow);
+}
+
+.btn-number.last:hover, .btn-operator.last:hover{
+    background: var(--light-dark-magenta);
+}
+
+.btn-equal.last{
+    background: var(--pure-cyan);
+    border-bottom: 3px solid var(--soft-cyan);
+    color: var(--very-dark-blue);
+}
+
+.btn-equal.last:hover{
+    background: var(--light-soft-cyan);
+}
