@@ -25,12 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshots/1.png)
+
+![](./images/screenshots/2.png)
 
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://aquamarine-marzipan-8a71f1.netlify.app/
 - Live Site URL: 
 
 ## My process
